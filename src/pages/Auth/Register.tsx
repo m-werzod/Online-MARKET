@@ -103,7 +103,7 @@ const Register: FC = () => {
               </div>
             </label>
 
-            <Button type="submit" disabled={isLoading} className={isLoading ? "cursor-not-allowed opacity-80" : ""}>   {isLoading ? (   <><img src={SpinnerIcon} alt="Loading" className="h-5 w-5 animate-spin" />  <span>Creating user...</span>   </>   ) : (  )} </Button>
+            <Button type="submit" disabled={isLoading} className={isLoading ? "cursor-not-allowed opacity-80" : ""}>{isLoading ? (<><img src={SpinnerIcon} alt="Loading" className="h-5 w-5 animate-spin" /> <span>Creating user...</span></>) : ("Register")}</Button>
             <div className="flex justify-between mt-4">
               <Link to={PATH.login} className="text-xs font-medium text-slate-300 decoration-white/20 underline-offset-4 transition-colors hover:text-slate-100 hover:decoration-white/40 hover:underline cursor-pointer">  Already have an account?</Link>
               <Link  to={PATH.login} className="text-xs font-medium text-slate-300 decoration-white/20 underline-offset-4 transition-colors hover:text-slate-100 hover:decoration-white/40 hover:underline cursor-pointer"  > Sign in </Link>

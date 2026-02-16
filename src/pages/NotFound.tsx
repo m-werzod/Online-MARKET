@@ -64,8 +64,7 @@ export default function NotFound() {
 
                   <Link
                     to="/products"
-                    className="inline-flex items-center justify-center rounded-2xl border border-white/10 bg-black/20 px-5 py-3 text-sm font-semibold text-slate-200 backdrop-blur transition hover:bg-black/30 active:scale-[0.99]"
-                  >
+                    className="inline-flex items-center justify-center rounded-2xl border border-white/10 bg-black/20 px-5 py-3 text-sm font-semibold text-slate-200 backdrop-blur transition hover:bg-black/30 active:scale-[0.99]" >
                     Products
                   </Link>
                 </div>
